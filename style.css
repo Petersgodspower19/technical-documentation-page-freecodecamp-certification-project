@@ -19,6 +19,9 @@ body a, p, li{
     padding-bottom: 5px;
     border-right: 1px solid grey;
   }
+  .sidenav img{
+    display: none;
+  }
   
   .sidenav h2,a {
     padding:0.8rem 0.8rem;
@@ -80,6 +83,7 @@ body a, p, li{
     justify-content: space-between;
   }
   .sidenav img{
+    display: block;
     position: absolute;
     top: 15px;
     left: 15px;
